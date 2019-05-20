@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #FCF0F2;
+}
+
+.grid {
+  display: flex;
+}
+
+.heading {
+}
+
+.row {
+  margin-left: 1.5%;
+}
+
+h1 {
+  font-size: 25px;
+  color: #181E34;
+}
+
+h2 {
+  margin-top: -2.5rem;
+  color: #FCF0F2;
+}
+
+
+h3 {
+  color: #181E34;
+  font-size: 300%;
+  margin-top: 10.5%;
+}
+
+h4 {
+  color: #181E34;
+  margin-top: 7%;
+  font-size: 140%;
+}
+
+.row-paragraph {  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  margin-top: -250px;
+}
+
+.green-bg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color: rgb(117, 181, 142);
+
+}
+
+/* #B0DDC2 */
+
+.paragraph {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #FCF0F2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* BUTTONS  */
+.minute-btns {
+  
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 100%;
+  height: 0%;
+  margin-bottom: 15%;
+  
+}
+.minute-btns button {
+  font-size: 1em;
+  border-radius: 4px;
+  width: 9rem;
+  height: 2.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: auto;
+  margin-bottom: 1rem;
+  font-weight: bold;
+
+
+  display: inline-block;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  background:  rgb(74, 164, 108);
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+}
+
+button:hover,
+button:focus {
+  background: rgb(55, 138, 87);;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+
+
+/* Woof */
+
+.Woof {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.woof-box img {
+
+}
